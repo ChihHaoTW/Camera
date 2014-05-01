@@ -25,7 +25,7 @@
 #** -LICENSE-END-
 
 CC=g++
-SDK_PATH=../../include
+SDK_PATH=../include
 CFLAGS=-Wno-multichar -I $(SDK_PATH) -fno-rtti
 LDFLAGS=-lm -ldl -lpthread
 
